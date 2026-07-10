@@ -47,6 +47,14 @@ export default {
         }
       }
 
+      if (this.api.homiesbadges && this.pageConfig.hideHomiesBadges == 'false') {
+        for (const value of this.api.homiesbadges) {
+          if (value.users.includes(this.payload.tags.user_id)) {
+            badges.push(value.url)
+          }
+        }
+      }
+
       if (this.api.bttvbadges && this.pageConfig.hideBTTVBadges == 'false') {
         for (const value of this.api.bttvbadges) {
           if (value.users.includes(this.payload.tags.user_id)) {

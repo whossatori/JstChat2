@@ -90,6 +90,7 @@ export default {
         hideFFZBadges: this.$route.query.hide_ffz_badge || 'false',
         hide7TVBadges: this.$route.query.hide_7tv_badge || 'false',
         hideChatterinoBadges: this.$route.query.hide_chatterino_badge || 'false',
+        hideHomiesBadges: this.$route.query.hide_homies_badge || 'false',
         sharedChatBadge: this.$route.query.shared_chat_badge || 'off',
         selfSharedBadge: this.$route.query.self_shared_badge || 'true',
 

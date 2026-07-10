@@ -366,7 +366,7 @@
         <div class="param">
           <label class="setting-name tooltip" for="hide_special_badges">
             <span class="tooltiptext">
-              Hide badges from BTTV, FFZ, 7TV, and Chatterino.<br><br>• Each one is toggleable
+              Hide badges from BTTV, FFZ, 7TV, Chatterino, and Chatterino Homies.<br><br>• Each one is toggleable
             </span>
             Hide Special Badges:
           </label>
@@ -389,6 +389,10 @@
         <div class="param">
           <span class="badgeOptions">• Hide Chatterino Badges:</span>
           <input class="badgeOptions" type="checkbox" v-model="hide_chatterino_badges" value="true" checked />
+        </div>
+        <div class="param">
+          <span class="badgeOptions">• Hide Homies Badges:</span>
+          <input class="badgeOptions" type="checkbox" v-model="hide_homies_badges" value="true" checked />
         </div>
 
         <div class="param">
@@ -532,6 +536,7 @@ export default {
       hide_ffz_badges: 'false',
       hide_7tv_badges: 'false',
       hide_chatterino_badges: 'false',
+      hide_homies_badges: 'false',
       display_shared_chat_badge: 'off',
       show_self_shared_badge_option: 'false',
       self_shared_badge: 'false',
@@ -574,6 +579,7 @@ export default {
         hide_ffz_badge = '',
         hide_7tv_badge = '',
         hide_chatterino_badge = '',
+        hide_homies_badge = '',
         shared_chat_badge = '',
         self_shared_badge = '',
         hide_bots = '',
@@ -611,6 +617,7 @@ export default {
       hide_ffz_badge = this.hide_ffz_badges != 'false' ? `&hide_ffz_badge=${this.hide_ffz_badges}` : ``
       hide_7tv_badge = this.hide_7tv_badges != 'false' ? `&hide_7tv_badge=${this.hide_7tv_badges}` : ``
       hide_chatterino_badge = this.hide_chatterino_badges != 'false' ? `&hide_chatterino_badge=${this.hide_chatterino_badges}` : ``
+      hide_homies_badge = this.hide_homies_badges != 'false' ? `&hide_homies_badge=${this.hide_homies_badges}` : ``
       shared_chat_badge = this.display_shared_chat_badge != 'off' ? `&shared_chat_badge=${this.display_shared_chat_badge}` : ``
       self_shared_badge = this.self_shared_badge != 'false' ? `&self_shared_badge=${this.self_shared_badge}` : ``
       hide_bots = this.hide_bots != 'true' ? `&hide_bots=${this.hide_bots}` : ``
@@ -618,7 +625,7 @@ export default {
       ignore = this.ignore != '' ? `&hide=${this.ignore.replace(/\s+/g, '')}` : ``
       filter = this.filter_messages != '' ? `&filter=${encodeURIComponent(this.filter_messages)}` : ``
 
-      return `https://itsalviiin.github.io/JstChat2/#/chat?channel=${this.channel.toLowerCase()}&font=${encodeURIComponent(font)}${font_size}${font_weight}${max_messages}${emote_size}${shadow}${bg}${border}${fade}${animate}${display_interval}${readable_colors}${auto_reload}${overlay_system_msg}${twitch_system_msg}${stv_system_msg}${highlight_first_time}${highlight_redeemed}${hide_personal}${hide_unlisted}${hide_private}${hide_paints}${hide_bttv_badge}${hide_ffz_badge}${hide_7tv_badge}${hide_chatterino_badge}${shared_chat_badge}${self_shared_badge}${hide_bots}${hide_commands}${ignore}${filter}`
+      return `https://whossatori.github.io/JstChat2/#/chat?channel=${this.channel.toLowerCase()}&font=${encodeURIComponent(font)}${font_size}${font_weight}${max_messages}${emote_size}${shadow}${bg}${border}${fade}${animate}${display_interval}${readable_colors}${auto_reload}${overlay_system_msg}${twitch_system_msg}${stv_system_msg}${highlight_first_time}${highlight_redeemed}${hide_personal}${hide_unlisted}${hide_private}${hide_paints}${hide_bttv_badge}${hide_ffz_badge}${hide_7tv_badge}${hide_chatterino_badge}${hide_homies_badge}${shared_chat_badge}${self_shared_badge}${hide_bots}${hide_commands}${ignore}${filter}`
     },
     showBackgroundOptions() {
       if (this.show_bg_options == 'true') {
@@ -727,12 +734,14 @@ export default {
         this.hide_ffz_badges = 'true'
         this.hide_7tv_badges = 'true'
         this.hide_chatterino_badges = 'true'
+        this.hide_homies_badges = 'true'
       } else {
         this.show_badges_options = 'false'
         this.hide_bttv_badges = 'false'
         this.hide_ffz_badges = 'false'
         this.hide_7tv_badges = 'false'
         this.hide_chatterino_badges = 'false'
+        this.hide_homies_badges = 'false'
       }
     },
     changeSystemMessages() {

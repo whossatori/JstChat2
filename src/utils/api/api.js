@@ -25,6 +25,7 @@ export default class API {
     this.ffzChannelbadges = []
     this.bttvbadges = []
     this.chatterinobadges = []
+    this.homiesbadges = []
   }
 
   async fetchEmotes() {
@@ -59,5 +60,6 @@ export default class API {
     this.ffzChannelbadges = await this.ffz.getFFZChannelBadges(this.twitch.channel)
     this.bttvbadges = await this.bttv.getBTTVBadges(this.twitch.userID)
     this.chatterinobadges = await this.chatterino.getChatterinoBadges()
+    this.homiesbadges = await this.chatterino.getHomiesBadges()
   }
 }
