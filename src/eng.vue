@@ -97,26 +97,24 @@
         v-bind:style="{ fontFamily: font != 'Custom' ? font : custom_font, fontWeight: font_weight, fontSize: font_size + 'px', backgroundColor: Background, filter: Shadow }">
         <div id="message_example" v-bind:style="{ borderTop: Border }">
           <img class="badges" src="https://static-cdn.jtvnw.net/badges/v1/5527c58c-fb7d-422d-b71b-f309dcb85cc1/2" />
-          <img class="badges" src="https://static-cdn.jtvnw.net/badges/v1/5d9f2208-5dd8-11e7-8513-2ff4adfae661/2" />
-          <img class="badges" src="https://static-cdn.jtvnw.net/badges/v1/2de71f4f-b152-4308-a426-127a4cf8003a/2" />
-          <img class="badges" src="https://cdn.7tv.app/badge/01JM3F4N2Y65KKHDGWDEDFTJNA/2x.webp" />
-          <span class="nickname_example" type="itsalviiin">itsalviiin: </span>
+          <img class="badges" src="https://static-cdn.jtvnw.net/badges/v1/75f5dcf3-53bb-4944-bf88-af4f473ab681/2" />
+          <img class="badges" src="https://static-cdn.jtvnw.net/badges/v1/590698dd-2bc4-4401-817a-17c641f5e881/2" />
+          <img class="badges" src="https://fourtf.com/chatterino/badges/supporter2x.png" />
+          <img class="badges" src="https://cdn.frankerfacez.com/badge/3/2/rounded" />
+          <img class="badges" src="https://cdn.frankerfacez.com/badge/2/2/rounded" />
+          <img class="badges" src="https://cdn.7tv.app/badge/01K7C9FGTXV4EBRV6K4H1ZTECK/4x.webp" />
+          <span class="nickname_example" type="satxris">satxris: </span>
           <span id="content_example">
             <div class="emote">
-              <span class="zero-width-emote-container" style="justify-content: center;">
-                <img class="emote" src="https://cdn.7tv.app/emote/01J0DY2ZD8000396FKBWMCJBB6/2x.webp" zerowidth="false">
-                <img class="emote" src="https://cdn.7tv.app/emote/01FNB9W3VR000EJT2EVEY3DGE0/2x.webp" zerowidth="true">
-              </span>
-              Hey chat!
+              <img src="https://cdn.7tv.app/emote/01KT1DFT7KGWDM5ND14PMFJPXY/2x.avif" />
+              @flanrz
             </div>
           </span>
         </div>
         <div id="message_example" v-bind:style="{ borderTop: Border }">
-          <img class="badges" src="https://static-cdn.jtvnw.net/badges/v1/3267646d-33f0-4b17-b3df-f923a41db1d0/2" />
-          <img class="badges" src="https://static-cdn.jtvnw.net/badges/v1/d12a2e27-16f6-41d0-ab77-b780518f00a3/2" />
+          <img class="badges" src="https://static-cdn.jtvnw.net/badges/v1/0822047b-65e0-46f2-94a9-d1091d685d33/2" />
           <img class="badges" src="https://cdn.frankerfacez.com/badge/2/2/rounded" />
-          <img class="badges" src="https://cdn.frankerfacez.com/badge/4/2/rounded" />
-          <span class="nickname_example" type="streamelements">StreamElements </span>
+          <span class="nickname_example" type="satbt">satbt </span>
           <span id="content_example" style="color: #5B99FF;">
             <img src="https://static-cdn.jtvnw.net/emoticons/v2/305954156/default/dark/2.0" /> <img class="emoji"
               draggable="false" alt="👉"
@@ -126,54 +124,43 @@
         </div>
         <div id="message_example" v-bind:style="{ borderTop: Border }">
           <img class="badges" src="https://static-cdn.jtvnw.net/badges/v1/b817aba4-fad8-49e2-b88a-7cc744dfa6ec/2" />
-          <img class="badges" src="https://static-cdn.jtvnw.net/badges/v1/2de71f4f-b152-4308-a426-127a4cf8003a/2" />
-          <span class="nickname_example" type="elis">elis: </span>
+          <img class="badges" src="https://static-cdn.jtvnw.net/badges/v1/d12a2e27-16f6-41d0-ab77-b780518f00a3/2" />
+          <img class="badges" src="https://cdn.7tv.app/badge/01KH9H6MEQMRS1N2S3HT3TJ9JQ/2x.webp" />
+          <span class="nickname_example" type="kailyn">kailyn: </span>
           <span id="content_example">
-            <img src="https://cdn.7tv.app/emote/01HS0YC6PR00053R068FSDQXNG/2x.webp" />
+            <img src="https://cdn.7tv.app/emote/01HEM99BDG000CYP3D2B72XPB3/2x.avif" />
           </span>
         </div>
         <div id="message_example" v-bind:style="{ borderTop: Border }">
-          <img class="badges" src="https://cdn.betterttv.net/badges/translator.svg" />
-          <img class="badges" src="https://static-cdn.jtvnw.net/badges/v1/ae1c6c62-c057-4fad-a1d4-663bf988701f/2" />
-          <span class="nickname_example" type="glorp">glorp: </span>
+          <img class="badges" src="https://fourtf.com/chatterino/badges/supporter2x.png" />
+          <img class="badges" src="https://cdn.frankerfacez.com/badge/2/2/rounded" />
+          <img class="badges" src="https://cdn.7tv.app/badge/01H85EF8DR00020G66EN3RFP9G/2x.webp" />
+          <span class="nickname_example" type="regressz">regressz: </span>
           <span id="content_example">
-            <span class="zero-width-emote-container" style="justify-content: center;">
-              <img class="emote" src="https://cdn.7tv.app/emote/01HNEKZY4G0001XDKW9GFY7KKV/2x.webp" style="z-index: -1;"
-                zerowidth="true">
-              <img class="emote" src="https://cdn.7tv.app/emote/01GGRX0GNR0005JFNK2VC9HTVR/2x.webp" zerowidth="false">
-            </span> <img id="bits_example"
-              src="https://d3aqoihi2n8ty8.cloudfront.net/actions/cheer/dark/animated/100/2.gif" />
-            <span id="bits_example"> 100 </span>
-            it's cool I guess
+            <img src="https://cdn.7tv.app/emote/01JHD5G68YVWKR2VQY3MPDZQHV/2x.avif" />
           </span>
         </div>
         <div id="message_example" v-bind:style="{ borderTop: Border, backgroundColor: FirstMessage }">
-          <img class="badges" src="https://static-cdn.jtvnw.net/badges/v1/e2ba99f4-6079-44d1-8c07-4ca6b58de61f/2" />
+          <img class="badges" src="https://static-cdn.jtvnw.net/badges/v1/3267646d-33f0-4b17-b3df-f923a41db1d0/2" />
+          <img class="badges" src="https://static-cdn.jtvnw.net/badges/v1/4300a897-03dc-4e83-8c0e-c332fee7057f/3" />
           <img class="badges" src="https://fourtf.com/chatterino/badges/supporter2x.png" />
-          <img class="badges" src="https://cdn.7tv.app/badge/01JAT9BASQDPE5VV0PMXRYND9E/3x" />
-          <span class="nickname_example" type="goldenkappa">GoldenKappa(골든카파): </span>
+          <img class="badges" src="https://cdn.frankerfacez.com/badge/3/2/rounded" />
+          <img class="badges" src="https://cdn.frankerfacez.com/badge/2/2/rounded" />
+          <img class="badges" src="https://cdn.7tv.app/badge/01GAFGTXQ0000E8VNG1S1RMTC4/2x.webp" />
+          <span class="nickname_example" type="flanrz">flanrz: </span>
           <span id="content_example">
-            <img src="https://static-cdn.jtvnw.net/emoticons/v2/80393/default/dark/2.0" />
-            hello im new
+            <img src="https://cdn.7tv.app/emote/01H94RXK8G000A3085VTM7A7ME/2x.avif" />
           </span>
         </div>
         <div id="message_example" v-bind:style="{ borderTop: Border, backgroundColor: RedeemedMessage }">
           <img class="badges" src="https://static-cdn.jtvnw.net/badges/v1/d12a2e27-16f6-41d0-ab77-b780518f00a3/2" />
-          <img class="badges" src="https://cdn.frankerfacez.com/badge/3/2/rounded" />
-          <img class="badges" src="https://cdn.7tv.app/badge/01H85EF8DR00020G66EN3RFP9G/2x.webp" />
-          <span class="nickname_example" type="emiru">Emiru: </span>
+          <img class="badges" src="https://cdn.7tv.app/badge/01JJJ74CRHZBRMCM8F4Y2WBN6R/4x.webp" />
+          <span class="nickname_example" type="xqc">xQc: </span>
           <span id="content_example">
-            <div class="emote">
-              <span class="zero-width-emote-container" style="justify-content: center;">
-                <img class="emote" src="https://cdn.7tv.app/emote/01H0VA5M70000AHHWDRHKKDYW1/2x.webp"
-                  style="z-index: -1;" zerowidth="true">
-                <img class="emote" src="https://cdn.7tv.app/emote/01JXRRCWWK074S15RFEEBX66HP/2x.webp" zerowidth="false">
-              </span>
-            </div>
+            <img src="https://cdn.7tv.app/emote/01KVW7E5QNWCB4Y4J6TNBSYE0W/2x.avif" />
+            <img src="https://cdn.7tv.app/emote/01F6N0K30R000EMM7M7JFF3ES2/2x.avif" />
+            <span id="bits_example" style="color: #FF0000;"> 10000 </span>
           </span>
-          <!-- <span id="content_example">
-            <img src="https://cdn.7tv.app/emote/01H0VA5M70000AHHWDRHKKDYW1/2x.webp" />
-          </span> -->
         </div>
       </div>
     </div>
@@ -479,7 +466,8 @@
               target="_blank">justririll</a> • fork by <a href="https://twitch.tv/itsalviiin" target="_blank">
               <img class="zoom" src="./images/glitch_flat_purple.png" width="15px">
             </a>
-            <a id="itsalviiin" href="https://twitch.tv/itsalviiin" target="_blank"> itsalviiin</a></span>
+            <a id="itsalviiin" href="https://twitch.tv/itsalviiin" target="_blank"> itsalviiin</a>
+            • fork by <a id="satxris" href="https://satos.cc" target="_blank">satxris</a></span>
           <br><br>
           <span id="disclaimer">Not affiliated with Twitch</span>
         </div>
@@ -905,18 +893,19 @@ body {
   vertical-align: -4px;
 }
 
-.nickname_example[type="itsalviiin"] {
+.nickname_example[type="satxris"] {
+  background-image: url("https://cdn.7tv.app/paint/01J7XK7JH80001NDPTMGEE21CY/layer/01JX9MB3Q3883FQK3X4RFBG0A0/4x.webp");
   background-size: cover;
+  background-position: center;
+  background-color: #bfbfbf;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text !important;
-  background-color: currentcolor;
-  background-image: url("https://cdn.7tv.app/paint/01J5RNC5N80001EVC269JT9JJG/layer/01JAMR3AY2E5PC81XDZ0DN720K/1x.webp");
-  filter: drop-shadow(rgb(216, 85, 85) 1px 1px 4px) drop-shadow(rgb(230, 188, 188) 0px 0px 2px);
-  color: #2FFFF2
+  color: transparent;
+  filter: drop-shadow(0px 0px 0.1px rgba(211, 200, 39, 1)) drop-shadow(1px 1px 0.1px rgba(123, 0, 168, 1));
 }
 
-.nickname_example[type="elis"] {
+.nickname_example[type="kailyn"] {
   background-size: cover;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -927,34 +916,49 @@ body {
   color: #FFCECE
 }
 
-.nickname_example[type="goldenkappa"] {
+.nickname_example[type="flanrz"] {
+  background-image: url("https://cdn.7tv.app/paint/01J5TSWYKG0009G53SSQGW6WH5/layer/01JAMR3C0V36XFF0GFHKX4CBE0/4x.webp");
   background-size: cover;
+  background-position: center;
+  background-color: #bfbfbf;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text !important;
-  background-color: currentcolor;
-  background-image: repeating-linear-gradient(135deg, rgb(254, 201, 57) 0%, rgb(254, 201, 57) 15%, rgb(255, 237, 148) 15%, rgb(255, 237, 148) 30%);
-  filter: drop-shadow(rgb(255, 149, 0) 0px 0px 0.1px) drop-shadow(rgb(255, 149, 0) 0px 0px 4px);
-  color: #2FFFF2
+  color: transparent;
+  filter: drop-shadow(0px 0px 1px rgba(161, 100, 0, 1)) drop-shadow(1px 1px 0.5px rgba(123, 41, 15, 1)) drop-shadow(0.5px 0.5px 0.5px rgba(123, 84, 0, 1)) drop-shadow(0.5px 0.5px 0.3px rgba(118, 62, 0, 1));
 }
 
-.nickname_example[type="streamelements"] {
-  color: #5B99FF;
-}
-
-.nickname_example[type="glorp"] {
-  color: #D1EF8D;
-}
-
-.nickname_example[type="emiru"] {
+.nickname_example[type="satbt"] {
+  background-image: url("https://cdn.7tv.app/paint/01KC2M1QNZ1Q1E47KPM14VSERH/layer/01KC2MMGYA4K0XE948FKRM307F/4x.webp");
   background-size: cover;
+  background-position: center;
+  background-color: #bfbfbf;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text !important;
-  background-color: currentcolor;
-  background-image: repeating-radial-gradient(circle, rgb(255, 255, 255) 17%, rgb(255, 255, 255) 19%, rgb(255, 184, 215) 34%);
-  filter: drop-shadow(rgb(255, 184, 242) 0px 0px 1px) drop-shadow(rgb(254, 144, 144) 1px 1px 0.5px) drop-shadow(rgb(106, 36, 36) 0.5px 0.5px 0.5px) drop-shadow(rgb(255, 148, 226) 0.5px 0.5px 0.3px);
-  color: #FF69B4;
+  color: transparent;
+  filter: drop-shadow(0px 0px 1.5px rgba(236, 118, 0, 1));
+}
+
+.nickname_example[type="regressz"] {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text !important;
+  background-image: linear-gradient(90deg, rgba(0, 255, 245, 1) 0%, rgba(170, 251, 251, 1) 25%, rgba(76, 212, 204, 1) 50%, rgba(4, 155, 186, 1) 75%, rgba(16, 128, 139, 1) 99%);
+  filter: drop-shadow(1.25px 1.25px 0px rgba(17, 79, 79, 0.6)) drop-shadow(1.25px 1.25px 0.25px rgba(41, 182, 246, 1)) drop-shadow(0.01px 0.01px 4.01px rgba(26, 79, 79, 1));
+  color: transparent;
+}
+
+.nickname_example[type="xqc"] {
+  background-image: url("https://cdn.7tv.app/paint/01JHXJFACX42RV996VE9933TB8/layer/01JMMQ2PBAK6PK2XYX8NT1QYB4/4x.webp");
+  background-size: cover;
+  background-position: center;
+  background-color: #bfbfbf;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text !important;
+  color: transparent;
+  filter: drop-shadow(0px 0px 0.1px rgba(57, 210, 30, 1)) drop-shadow(1px 1px 0.1px rgba(0, 85, 87, 1));
 }
 
 .zero-width-emote-container {
@@ -1014,6 +1018,11 @@ body {
 #itsalviiin {
   text-decoration: none;
   color: #2FFFF2;
+}
+
+#satxris {
+  text-decoration: none;
+  color: #b985ff;
 }
 
 input {
