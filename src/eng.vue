@@ -126,7 +126,7 @@
           <img class="badges" src="https://static-cdn.jtvnw.net/badges/v1/b817aba4-fad8-49e2-b88a-7cc744dfa6ec/2" />
           <img class="badges" src="https://static-cdn.jtvnw.net/badges/v1/d12a2e27-16f6-41d0-ab77-b780518f00a3/2" />
           <img class="badges" src="https://cdn.7tv.app/badge/01KH9H6MEQMRS1N2S3HT3TJ9JQ/2x.webp" />
-          <span class="nickname_example" type="kailyn">kailyn: </span>
+          <span class="nickname_example" type="elis">elis: </span>
           <span id="content_example">
             <img src="https://cdn.7tv.app/emote/01HEM99BDG000CYP3D2B72XPB3/2x.avif" />
           </span>
@@ -905,7 +905,7 @@ body {
   filter: drop-shadow(0px 0px 0.1px rgba(211, 200, 39, 1)) drop-shadow(1px 1px 0.1px rgba(123, 0, 168, 1));
 }
 
-.nickname_example[type="kailyn"] {
+.nickname_example[type="elis"] {
   background-size: cover;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
